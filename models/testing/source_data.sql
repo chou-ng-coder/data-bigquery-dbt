@@ -12,4 +12,4 @@ select
     -- Add any transformations here
     current_timestamp() as loaded_at
 
-from {{ ref('course_raw') }}
+from {{ source('dev_dbt_data', 'course_raw') }}

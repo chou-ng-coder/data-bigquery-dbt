@@ -1,0 +1,19 @@
+version: 2
+
+models:
+  - name: source_data
+    description: "Staging model for raw course data"
+    columns:
+      - name: course_id
+        description: "Unique identifier for the course"
+        tests:
+          - unique
+          - not_null
+      - name: course_name
+        description: "Name of the course"
+        tests:
+          - not_null
+      - name: created_at
+        description: "Timestamp when the course was created"
+      - name: loaded_at
+        description: "Timestamp when the data was loaded into this model"

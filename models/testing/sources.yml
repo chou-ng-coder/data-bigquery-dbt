@@ -1,0 +1,18 @@
+version: 2
+
+sources:
+  - name: raw_data
+    description: "Raw source data tables"
+    # Update this to your actual BigQuery dataset
+    # database: your-gcp-project
+    # schema: your_dataset
+    tables:
+      - name: course_raw
+        description: "Raw course data from seed file"
+        columns:
+          - name: course_id
+            description: "Unique identifier for the course"
+          - name: course_name
+            description: "Name of the course"
+          - name: created_at
+            description: "Timestamp when the course was created"

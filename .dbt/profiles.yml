@@ -1,0 +1,13 @@
+development: # Profile name as specified in dbt_project.yml
+  target: dev
+  outputs:
+    dev:
+      dbname: dev # Should point to your development DB
+      host: localhost
+      password: R6zN5vhHJ7QXPG2bNg39
+      port: 5439
+      schema: core_dimensions # Default Target Schema for all outputs 
+      threads: 4
+      type: redshift # Database Type
+      user: analytics_reporting_user
+      

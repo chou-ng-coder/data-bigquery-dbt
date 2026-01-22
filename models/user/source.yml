@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: dbt_dev_us_central1
+    description: "Source data tables"
+    # Update this to your actual BigQuery dataset
+    database: project-magic-dj-poc
+    schema: dbt_dev_us_central1
+    tables:
+      - name: accounts_thmuser_source
+      - name: course_course_source

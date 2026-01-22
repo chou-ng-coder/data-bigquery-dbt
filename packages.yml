@@ -1,0 +1,10 @@
+packages:
+- package: dbt-labs/dbt_external_tables
+  version: 0.8.0
+- package: dbt-labs/dbt_utils
+  version: 0.9.0
+- package: calogica/dbt_expectations
+  version: [">=0.6.0", "<0.7.0"] #source: https://github.com/calogica/dbt-expectations
+  
+  # version before: 0.8.1  
+# v0.21.0 -> has functionality to fail on_schema_change with incremental model materializations

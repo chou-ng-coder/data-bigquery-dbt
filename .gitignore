@@ -3,3 +3,13 @@
 target/
 dbt_packages/
 logs/
+schema/
+temp/
+tools/output/
+env/
+.user.yml
+dbt_internal_packages/
+data_samples/
+.github/
+.python-version
+.gitignore

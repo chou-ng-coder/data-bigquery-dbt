@@ -1,0 +1,10 @@
+pip==22.0.4
+wheel==0.38.1
+setuptools==65.5.1
+Logbook==1.5.3
+dbt-redshift==1.9.5
+dbt-postgres==1.9.0
+dbt-core==1.10.13
+sqlfluff==3.0.7
+sqlfluff-templater-dbt==3.0.7
+pre-commit==2.18.1
